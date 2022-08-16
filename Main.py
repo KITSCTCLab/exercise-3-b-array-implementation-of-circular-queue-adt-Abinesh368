@@ -56,7 +56,7 @@ result = []
 for i in range(len(operations)):
     if i == 0:
         result.append(None)
-    elif operations[i] == "enqueue":
+    elif operations[i] == "enqueue": 
         result.append(obj.enqueue(data[i][0]))
     elif operations[i] == "get_rear":
         result.append(obj.get_rear())
